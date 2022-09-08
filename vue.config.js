@@ -3,7 +3,7 @@ const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
 module.exports = defineConfig({
   transpileDependencies: true,
-  // publicPath:'/myHeadLine/',
+  publicPath:'/myHeadLine/',
 
   //定制主题
   css: {
